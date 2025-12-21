@@ -1,0 +1,29 @@
+body {
+    background: #f2f7fb;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.logo{
+    font-size: larger;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+#options button {
+    margin-bottom: 10px;
+}
+
+.correct {
+    background-color: #198754 !important;  /* green background */
+    border-color: #198754 !important;      /* green border */
+    color: white !important;               /* white text */
+}
+
+
+.wrong {
+    background-color: #dc3545 !important;  /* red background */
+    border-color: #dc3545 !important;      /* red border */
+    color: white !important;               /* white text */
+}

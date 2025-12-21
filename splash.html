@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash Screen</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #ffffff; /* change background color if needed */
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .logo {
+            width: 120px; /* logo size */
+            height: 120px;
+            margin-bottom: 20px;
+        }
+
+        .app-name {
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+    <script>
+        // Redirect after 4 seconds
+        setTimeout(() => {
+            window.location.href = "index.html"; 
+        }, 4000);
+    </script>
+</head>
+<body>
+    <div class="container">
+        <img src="images/logo.png" class="logo" alt="App Logo"> 
+        <div class="app-name">Islamic IQ</div>
+    </div>
+</body>
+</html>
